@@ -100,7 +100,7 @@ function App({ currency, getCurrency }) {
         <Form.Group className="mb-3">
           <InputGroup className="mb-3">
           <InputGroup.Text>Количество</InputGroup.Text>
-          <FormControl aria-label="Amount (to the nearest dollar)" placeholder="Кличество денег" onChange={ onChangeAmount }/>
+          <FormControl aria-label="Amount (to the nearest dollar)" placeholder="Ввод" onChange={ onChangeAmount }/>
           <InputGroup.Text>.00</InputGroup.Text>
           </InputGroup>
         </Form.Group>
