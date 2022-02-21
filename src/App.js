@@ -24,7 +24,7 @@ function App({ currency, getCurrency }) {
     getCurrency() // = componentDidMount()
   }, [])  // = componentDidUpdate()
 
-  // Hooks to get values(state) from select amd input
+  // Hooks to get values(state) from select and input
   const [valueFrom, setValueFrom] = useState(0)
   function onChangeFrom(event) {
     setValueFrom(event.target.value)
@@ -49,6 +49,7 @@ function App({ currency, getCurrency }) {
         <NaviBar />
         
         <Routes>
+          {/* blanks for future pages */}
           <Route exact path="/" element={<Home/>} />
           <Route path="/home" exact element={<Home />}></Route>
           <Route path="/exchangerates" element={<ExchangeRates/>} />
