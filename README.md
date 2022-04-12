@@ -26,7 +26,6 @@ The application is written in React, Redux using the PrivatBank API
 * react-router-dom
 * react-bootstrap
 * styled-components
-* react-router-dom
 
 ---
 
